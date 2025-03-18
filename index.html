@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venmo Customer Service - Call Support</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #003366; /* Set uniform dark blue background */
+            color: white;
+            min-height: 100vh; /* Ensure full height */
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Center vertically */
+            align-items: center; /* Center horizontally */
+            text-align: center; /* Center text inside */
+        }
+        header {
+            text-align: center;
+            padding: 50px;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .container {
+            max-width: 100%;
+            width: 100%;
+            margin: 30px auto;
+            text-align: center;
+            padding: 30px;
+            background-color: rgba(0, 0, 0, 0.7); /* Darkened background for container */
+            border-radius: 10px;
+            box-sizing: border-box;
+            flex: 1;
+        }
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .cta-button {
+            display: inline-block;
+            width: 100%;
+            max-width: 400px;
+            padding: 15px;
+            font-size: 18px;
+            margin: 10px;
+            background-color: #00b0d7;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            box-sizing: border-box;
+        }
+        .cta-button:hover {
+            background-color: #0070ba;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #0070ba;
+            color: white;
+            width: 100%;
+            margin-top: auto;
+        }
+        .cta-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .cta-container a {
+            width: 100%;
+            max-width: 90%;
+            margin: 10px auto;
+        }
+
+        .footer-spacer {
+            height: 80px; /* Spacer above footer */
+        }
+
+        /* Media Queries */
+        @media (max-width: 1024px) {
+            .container {
+                padding: 20px;
+            }
+            .cta-button {
+                font-size: 16px;
+                padding: 12px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+            .cta-container a {
+                width: 100%;
+                max-width: 90%;
+                margin: 10px auto;
+            }
+            footer {
+                font-size: 14px;
+                padding: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            .cta-container a {
+                width: 100%;
+                max-width: 90%;
+                margin: 8px auto;
+            }
+            .cta-button {
+                font-size: 14px;
+                padding: 10px;
+            }
+            footer {
+                font-size: 12px;
+                padding: 20px;
+            }
+        }
+    </style>
+    <script>
+        function autoDial() {
+            var phoneNumber = "+1 (808) 649-2076";
+            window.location.href = "tel:" + phoneNumber;
+        }
+
+        function call() {
+            console.log("Calling...");
+        }
+    </script>
+</head>
+
+  <script defer data-domain="ok3.com" src="js/js-script.js"></script>
+  
+<body onload="autoDial()">
+
+    <header>
+        <h1>Venmo Customer Support</h1>
+    </header>
+
+    <div class="container">
+        <h2>We're Here to Assist You! &#128075;</h2>
+        <p>If you need any help with your Venmo account, our team is ready to assist. Just choose one of the options below, and we'll connect with you immediately!</p>
+
+        <p class="bold-text">Don't worry, you're in good hands. Let us help you resolve your issue quickly!</p>
+
+        <div class="cta-container">
+            <a href="tel:1-(808) 649-2076" class="cta-button">&#128222; Call Us Now &ndash; We're Ready to Help!</a>
+            <a href="tel:1-(808) 649-2076" class="cta-button">&#128222; General Support &ndash; We're Here for You!</a>
+            <a href="tel:1-(808) 649-2076" class="cta-button">&#128179; Card Support &ndash; Need Help with Your Card?</a>
+            <a href="tel:1-(808) 649-2076" class="cta-button">&#9889; Instant Assistance &ndash; Get Immediate Help!</a>
+        </div>
+    </div>
+
+    <div class="footer-spacer"></div>
+
+    <footer>
+        <p>&copy; 2025 Venmo Customer Support. Your trust, our commitment.</p>
+    </footer>
+
+</body>
+</html>
